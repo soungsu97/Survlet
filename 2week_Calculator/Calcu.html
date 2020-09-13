@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>계산기</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<form  method="post" action="calc">
+		<h1>계산기</h1>
+		<hr>
+		<input type="text" name="num1"> <select name="sym" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+		<option selected>+</option>
+		<option>-</option>
+		<option>*</option>
+		<option>/</option>
+		</select>
+		<input type="text" name="num2"> <input type="submit" value="계산" class="btn btn-primary">
+																		<input type="reset" value="재입력" class="btn btn-primary">
+	</form> 
+</body>
+</html>
