@@ -1,0 +1,9 @@
+CREATE SEQUENCE board_ai START WITH 1 INCREMENT BY 1 MAXVALUE 100 CYCLE NOCACHE;
+
+create table board(
+no nvarchar2(5),
+title nvarchar2(100)
+content nvarchar2(500),
+writer nvarchar2(20),
+regdate date
+)
