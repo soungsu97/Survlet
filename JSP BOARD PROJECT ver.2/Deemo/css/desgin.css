@@ -1,0 +1,68 @@
+<style>
+.fakeimg {
+  height: 200px;
+  background: #aaa;
+}
+.card {
+      margin: 0 auto;
+      float: none;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      padding: 10px;
+      box-shadow: 4px 4px 10px grey;
+    }
+/* #navi{
+  background-color:black;
+} */
+
+a { text-decoration:none;
+    color:black;
+ }
+#mainimg{
+
+    }
+#paging{
+  vertical-align: middle;
+  padding: 50px 0px 0px 38%;
+}
+#textWrite{
+  float: right;
+}
+#box{
+      text-align: center;
+      padding: 20% 0px;
+    }
+#btn-start{
+      width: 200px;
+      height: 60px;
+    }
+
+body{
+
+    }
+h1{
+
+  }
+#sub {
+  background-color: #4CAF50;
+  text-align: center;
+  color: white;
+  padding: ;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  height : 40px;
+}
+
+#sign{
+  background-color: #4CAF50;
+  color: white;
+  padding: ;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  height : 40px;
+}
+</style>
